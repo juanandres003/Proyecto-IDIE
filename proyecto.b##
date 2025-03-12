@@ -23,33 +23,33 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bWFpbDEzNzQzOQ" projecturn="a.YnVzaW5lc3M6bWFpbDEzNzQzOSNEMjAyNDExMDI4MjY2NjAwODE" f3durn="urn:adsk.wipprod:dm.lineage:pE5lTjCVTYS_a8Fw7W4kfA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="ac85fed6-89a1-4963-a5c5-f038d375506a" lastsyncedrevisionid="ac85fed6-89a1-4963-a5c5-f038d375506a" lastboardhashguid="4ad08b7a-397c-dc7e-224c-48e54188d259" lastpushedtime="2024-11-09T12:30:58Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bWFpbDEzNzQzOQ" projecturn="a.YnVzaW5lc3M6bWFpbDEzNzQzOSNEMjAyNDExMDI4MjY2NjAwODE" f3durn="urn:adsk.wipprod:dm.lineage:pE5lTjCVTYS_a8Fw7W4kfA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="ac85fed6-89a1-4963-a5c5-f038d375506a" lastsyncedrevisionid="ac85fed6-89a1-4963-a5c5-f038d375506a" lastboardhashguid="4ad08b7a-397c-dc7e-224c-48e54188d259" lastpushedtime="2024-11-09T12:30:58Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-47.879" y1="-15.6972" x2="-43.7642" y2="-15.6972" width="0.1524" layer="20"/>
 <wire x1="-43.7642" y1="-15.6972" x2="-39.6494" y2="-19.812" width="0.1524" layer="20" curve="-90"/>
@@ -2665,7 +2665,7 @@
 <rectangle x1="-26.84653125" y1="16.764" x2="-26.50363125" y2="16.7767" layer="25"/>
 <rectangle x1="-32.25673125" y1="16.7767" x2="-32.16783125" y2="16.7894" layer="25"/>
 <rectangle x1="-31.85033125" y1="16.7767" x2="-31.74873125" y2="16.7894" layer="25"/>
-<rectangle x1="-30.297121875" y1="16.353790625" x2="-30.195521875" y2="16.366490625" layer="25"/>
+<rectangle x1="-31.63443125" y1="16.7767" x2="-31.53283125" y2="16.7894" layer="25"/>
 <rectangle x1="-31.22803125" y1="16.7767" x2="-31.13913125" y2="16.7894" layer="25"/>
 <rectangle x1="-30.97403125" y1="16.7767" x2="-30.88513125" y2="16.7894" layer="25"/>
 <rectangle x1="-30.79623125" y1="16.7767" x2="-30.69463125" y2="16.7894" layer="25"/>
